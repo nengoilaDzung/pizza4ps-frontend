@@ -13,7 +13,7 @@ body {
 }
 
 .App {
-  overflow: scroll;
+  overflow: visible;
 }
 
 code {
@@ -580,6 +580,9 @@ code {
 }
 
 @media (max-width: 810px) {
+  .App {
+    overflow: scroll;
+  }
   .NavBar-container {
     height: 50px;
   }
